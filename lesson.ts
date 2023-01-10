@@ -6,6 +6,12 @@ https://www.youtube.com/watch?v=uTIy6MspSK0
 
 Wednesday 1/11/23 2:40pm Student 1 
 
+
+Schedule:
+https://docs.google.com/spreadsheets/d/13bgDPEeN5v4z8hDOyqnm-idp4_cLdwd3Zbw5J2VRQYs/edit#gid=0
+
+
+
 Zoom Link :
 https://redventures.zoom.us/j/95939454952?pwd=UTlkSDQ0VlR4WlhLbnF2alZ5V1JlZz09&from=addon
 
@@ -32,8 +38,9 @@ Polymorphism
 
 --------------- Second Half ---------------
 You Must Include a Github Readme file Essay 2 Paragraphs explaining these terms and
-why we would use them  -  Static, Protected, Private.
-
+why we would use them  -  Static, Protected, rivate.
 
 
 */
+
+
