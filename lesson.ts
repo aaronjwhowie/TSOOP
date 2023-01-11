@@ -72,6 +72,7 @@ the attributes and methods of another class.
 
 ---------------------------------------------------  */
 
+
  // Classes are what we use to define the variable type
 class Person {   
     name: string;  
@@ -91,6 +92,12 @@ Extends allows the subclass to utilize properties from the superclass
 
 While Implements forces the subclass to conform to the superclass, 
 Throwing an error if it does not mirror the superclass
+
+Analogy
+
+Extend = Child with Traits
+
+Implement = Doppleganger 
 */
 
 
@@ -124,14 +131,21 @@ Static has no ".this" method. It cannot be reference and remains the same
 Static is only available on the class and is not available on the
  instances of the class
 
+
+ Static = Cannot be inherited or called at all
 ---------------------------------------------------
 
 Private : Cant be accessed anywhere outside the class and cant be inherited
 
+
+Private  = Cannot be inherited just like static but can be referenced and called indirectly
 ---------------------------------------------------
 
 Protected : Protected is similar to Private but the deriving classes can
 inherit its properties.
+
+
+Protected = The deriving class can inherit properties no other classes
 ---------------------------------------------------  */
 
 
@@ -154,7 +168,9 @@ details of an object so that it can be used without
 understanding how it works.
 
 
-
+Within this example we have given first and last name a new variable to be placed under
+whenever we call full name the client is receiving both the first and last name
+without actually getting them directly
 ---------------------------------------------------  */
 
 
@@ -194,7 +210,13 @@ Polymorphism is the ability of an object to take
  the inherited method
 
 
- Chargers - 
+
+The deriving class inherits the superclasses properties but changes an aspect about
+it to personalize it.
+
+Class C is taking on a new form that is Class B
+
+ Analogy - 
 
 Both chargers plug into an iphone but the other ends of each is different.
 
