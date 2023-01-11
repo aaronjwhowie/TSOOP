@@ -35,12 +35,33 @@ Abstraction
 Inheritance 
 Polymorphism 
 
+ 
 
 --------------- Second Half ---------------
 You Must Include a Github Readme file Essay 2 Paragraphs explaining these terms and
-why we would use them  -  Static, Protected, rivate.
+why we would use them  -  Static, Protected, private.
 
 
 */
 
 
+
+
+
+
+
+/* --------------- Inheritance --------------- */
+
+
+class Person {  
+    name: string;  
+    age: number;  
+
+    constructor(name:string, age:number) {   
+         this.name = name;   
+          this.age = age;  }  
+
+eat() {   
+    console.log(`What's for dinner?`);  }  
+speak() { 
+    console.log(`My name is ${this.name}, I am ${this.age} years old`);  }}
